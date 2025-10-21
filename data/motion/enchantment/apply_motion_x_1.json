@@ -1,0 +1,32 @@
+{
+  "description": "",
+  "supported_items": "minecraft:stick",
+  "weight": 1,
+  "max_level": 19,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": ["any"],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [1, 0, 0],
+          "coordinate_scale": [1, 1, 1],
+          "magnitude": {
+            "type": "minecraft:linear",
+            "base": -9,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ]
+  }
+}

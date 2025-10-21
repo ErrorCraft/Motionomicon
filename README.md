@@ -31,7 +31,6 @@ function motion:set {x: 0, y: 0.42, z: 0}
 ```
 
 Dash in the negative z direction.
-Dash northwards.
 ```mcfunction
 function motion:set {x: 0, y: 0, z: -2}
 ```
